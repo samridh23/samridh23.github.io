@@ -303,7 +303,7 @@ button {
 }
 
 .img-one {
-    width: 300px;
+    width: 260px;
     height: 300px;
     border-radius: 42px;
     background: url('python.jpg') no-repeat;
@@ -340,7 +340,7 @@ button {
 }
 
 .img-two {
-    width: 300px;
+    width: 260px;
     height: 300px;
     border-radius: 42px;
     background: url('python.jpg') no-repeat;
@@ -359,7 +359,7 @@ button {
 }
 
 .img-three {
-    width: 300px;
+    width: 260px;
     height: 300px;
     border-radius: 42px;
     background: url('python.gif') no-repeat;
