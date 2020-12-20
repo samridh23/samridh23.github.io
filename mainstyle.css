@@ -243,35 +243,187 @@ button {
 
 /*Images Banner*/
 
-body,
-html {
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+.imagebanner img {
+    width: 100%;
+    height: auto;
+    box-shadow: gray;
 }
 
-
-/* The hero image */
-
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner1.png");
-    /* Set a specific height */
-    height: 60%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.imagebanner {
     position: relative;
+    text-align: left;
+    color: whitesmoke;
+    font-size: 8vw;
+    font-family: 'Oxygen', sans-serif;
 }
 
-
-/* Place text in the middle of the image */
-
-.hero-text {
-    text-align: center;
-    position: relative;
-    font-size: 30px;
+.bannertext {
+    position: absolute;
     top: 50%;
-    left: 50%;
+    left: 37%;
     transform: translate(-50%, -50%);
+}
+
+
+/* Card Start */
+
+.main-card {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card_title h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
     color: white;
+    font-size: 250%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-width {
+    width: 300px;
+    margin: 20px;
+    border-radius: 42px;
+    box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.2);
+    transition: .3s box-shadow, .3s margin-top ease-in-out;
+}
+
+.card-width:hover {
+    box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.img-one {
+    width: 350px;
+    height: 300px;
+    border-radius: 42px;
+    background: url('python.jpg') no-repeat;
+    background-size: 150%;
+    background-position-y: 0%;
+    background-position-x: 0%;
+}
+
+.card-one {
+    height: 450px;
+    background-color: #FFE697;
+}
+
+.btn-base {
+    display: flex;
+    width: 260px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: -25px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn-one {
+    background-color: #FF8A8A;
+}
+
+.card-two {
+    height: 450px;
+    background-color: #E4E4E4;
+}
+
+.img-two {
+    width: 350px;
+    height: 300px;
+    border-radius: 42px;
+    background: url('python.jpg') no-repeat;
+    background-size: 130%;
+    background-position-y: 0%;
+    background-position-x: 60%;
+}
+
+.btn-two {
+    background-color: #BFBBBB;
+}
+
+.card-three {
+    height: 450px;
+    background-color: #B7E0FF;
+}
+
+.img-three {
+    width: 350px;
+    height: 300px;
+    border-radius: 42px;
+    background: url('python.gif') no-repeat;
+    background-size: 140%;
+    background-position-y: 100%;
+    background-position-x: 30%;
+}
+
+.btn-three {
+    background-color: #31A2FA;
+}
+
+.content {
+    padding: 15px 35px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 708px) {
+    .card_title h1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        color: white;
+        font-size: 170%;
+    }
+    .card-container {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .card-width {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .card-width:hover {
+        box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+    .img-one {
+        width: 300px;
+        height: 300px;
+        border-radius: 42px;
+        background: url('python.jpg') no-repeat;
+        background-size: 150%;
+        background-position-y: 0%;
+        background-position-x: 0%;
+    }
+    .img-two {
+        width: 300px;
+        height: 300px;
+        border-radius: 42px;
+        background: url('python.jpg') no-repeat;
+        background-size: 130%;
+        background-position-y: 0%;
+        background-position-x: 60%;
+    }
+    .img-three {
+        width: 300px;
+        height: 300px;
+        border-radius: 42px;
+        background: url('python.gif') no-repeat;
+        background-size: 140%;
+        background-position-y: 100%;
+        background-position-x: 30%;
+    }
 }
