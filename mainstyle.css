@@ -289,7 +289,7 @@ button {
 }
 
 .card-width {
-    width: 300px;
+    width: 260px;
     margin: 20px;
     border-radius: 42px;
     box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.2);
@@ -303,7 +303,7 @@ button {
 }
 
 .img-one {
-    width: 350px;
+    width: 300px;
     height: 300px;
     border-radius: 42px;
     background: url('python.jpg') no-repeat;
@@ -313,17 +313,17 @@ button {
 }
 
 .card-one {
-    height: 450px;
+    height: 400px;
     background-color: #FFE697;
 }
 
 .btn-base {
     display: flex;
-    width: 260px;
-    height: 50px;
-    border-radius: 50px;
+    width: 220px;
+    height: 40px;
+    border-radius: 40px;
     margin: 0 auto;
-    margin-top: -25px;
+    margin-top: -65px;
     font-size: 30px;
     justify-content: center;
     align-items: center;
@@ -335,12 +335,12 @@ button {
 }
 
 .card-two {
-    height: 450px;
+    height: 400px;
     background-color: #E4E4E4;
 }
 
 .img-two {
-    width: 350px;
+    width: 300px;
     height: 300px;
     border-radius: 42px;
     background: url('python.jpg') no-repeat;
@@ -354,12 +354,12 @@ button {
 }
 
 .card-three {
-    height: 450px;
+    height: 400px;
     background-color: #B7E0FF;
 }
 
 .img-three {
-    width: 350px;
+    width: 300px;
     height: 300px;
     border-radius: 42px;
     background: url('python.gif') no-repeat;
