@@ -306,10 +306,10 @@ button {
     width: 260px;
     height: 300px;
     border-radius: 42px;
-    background: url('python.jpg') no-repeat;
-    background-size: 150%;
+    background: url('images/python.jpg') no-repeat;
+    background-size: 175%;
     background-position-y: 0%;
-    background-position-x: 0%;
+    background-position-x: 50%;
 }
 
 .card-one {
@@ -336,7 +336,7 @@ button {
 
 .card-two {
     height: 400px;
-    background-color: #E4E4E4;
+    background-color: #FFE697;
 }
 
 .img-two {
@@ -350,26 +350,26 @@ button {
 }
 
 .btn-two {
-    background-color: #BFBBBB;
+    background-color: #FF8A8A;
 }
 
 .card-three {
     height: 400px;
-    background-color: #B7E0FF;
+    background-color: #FFE697;
 }
 
 .img-three {
     width: 260px;
     height: 300px;
     border-radius: 42px;
-    background: url('python.gif') no-repeat;
-    background-size: 140%;
-    background-position-y: 100%;
-    background-position-x: 30%;
+    background: url('images/java-main.jpg') no-repeat;
+    background-size: 160%;
+    background-position-y: 0%;
+    background-position-x: 50%;
 }
 
 .btn-three {
-    background-color: #31A2FA;
+    background-color: #FF8A8A;
 }
 
 .content {
@@ -400,7 +400,7 @@ button {
         cursor: pointer;
     }
     .img-one {
-        width: 300px;
+        width: 260px;
         height: 300px;
         border-radius: 42px;
         background: url('python.jpg') no-repeat;
@@ -409,7 +409,7 @@ button {
         background-position-x: 0%;
     }
     .img-two {
-        width: 300px;
+        width: 260px;
         height: 300px;
         border-radius: 42px;
         background: url('python.jpg') no-repeat;
@@ -418,7 +418,7 @@ button {
         background-position-x: 60%;
     }
     .img-three {
-        width: 300px;
+        width: 260px;
         height: 300px;
         border-radius: 42px;
         background: url('python.gif') no-repeat;
