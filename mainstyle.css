@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.heading-text{
+	text-align: center;
+	font-family: 'Bungee Outline', cursive;
+	background-color: #002244;
+}
+.heading-text h1{
+	color: white;
+	font-style: italic;
+}
+.text-content{
+	padding-left: 20px;
+}
+.content-heading{
+	margin-top: 20px;
+	font-family: 'Staatliches', cursive;
+
+}
+.content-text{
+	font-family: 'Roboto', sans-serif;
+}
